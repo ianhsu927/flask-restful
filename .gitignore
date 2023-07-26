@@ -45,5 +45,7 @@ docs/_build
 #Eclipse/Aptana
 .project
 .pydevproject
+
+# others
 venv/
 .vscode/
