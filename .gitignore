@@ -46,3 +46,4 @@ docs/_build
 .project
 .pydevproject
 venv/
+.vscode/
