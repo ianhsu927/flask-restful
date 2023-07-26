@@ -1,6 +1,6 @@
 # Intermediate Usage
 
-本文档介绍了如何构建一个更复杂的 Flask-RESTful 应用程序，并概述了在构建真实世界 Flask-RESTful 驱动 API 时应遵循的最佳实践。
+本文档介绍了如何构建一个更复杂的 `Flask-RESTful` 应用程序，并概述了在构建真实世界 `Flask-RESTful` 驱动 `API` 时应遵循的最佳实践。
 
 ## 项目结构
 
