@@ -23,7 +23,7 @@ myapi/
         util.py     # 只是一些通用基础设施
 ```
 
-common 目录可能只包含一个存储库函数集，以满足您的应用程序在整个应用程序中的需求。它还可以包含，例如，您的资源需要完成工作的任何自定义输入/输出类型。
+`common` 目录可能只包含一个存储库函数集，以满足您的应用程序在整个应用程序中的需求。它还可以包含，例如，您的资源需要完成工作的任何自定义输入/输出类型。
 
 在资源文件中，您只需要您的资源对象。所以 `foo.py` 可能看起来像这样：
 ```python
@@ -53,7 +53,7 @@ api.add_resource(Bar, '/Bar', '/Bar/<string:id>')
 api.add_resource(Baz, '/Baz', '/Baz/<string:id>')
 ```
 
-如您所见，`app.py` 文件非常有价值，因为它包含了您的整个 API 的所有路由和资源的完整列表。您还会在该文件中使用 config 值 ([before_request()](https://flask.palletsprojects.com/en/2.3.x/api/#flask.Flask.before_request), [after_request()](https://flask.palletsprojects.com/en/2.3.x/api/#flask.Flask.after_request))。基本上，此文件配置您的整个 API。
+如您所见，`app.py` 文件非常有价值，因为它包含了您的整个 API 的所有路由和资源的完整列表。您还会在该文件中使用 `config` 值 ([`before_request()`](https://flask.palletsprojects.com/en/2.3.x/api/#flask.Flask.before_request), [`after_request()`](https://flask.palletsprojects.com/en/2.3.x/api/#flask.Flask.after_request))。基本上，此文件配置您的整个 API。
 
 `common` 目录中的内容只是您支持您的资源所需的基础设施。
 
